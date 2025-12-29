@@ -1,53 +1,65 @@
 # MDpad 📝  
-*A Notepad-like desktop editor for Markdown with live preview*
+*A Notepad-like desktop GUI editor for Markdown with live preview*
 
-MDpad is a lightweight, fast, and beautiful Markdown editor built with **Python + Tkinter**.  
-It provides a **plain-text editing experience** on the left and a **live HTML preview** on the right using an embedded Chromium browser.
+MDpad is a lightweight, fast, and beautiful **desktop GUI Markdown editor** built with **Python + Tkinter**.  
+It offers a clean **plain-text editor** on the left and a **live rendered preview** on the right using an embedded Chromium browser.
 
-Perfect for quick notes, documentation, and README writing — without the bloat of full IDEs.
+Designed for simplicity — no clutter, no terminal usage required.
 
 ---
 
 ## ✨ Features
 
-- 📝 **Minimal Markdown editor** (Notepad-style)
-- 👀 **Live preview** rendered instantly as you type
-- 🌑 **Dark theme** (editor + preview)
+- 🖥️ **Native GUI application** (no console window)
+- 📝 Minimal Markdown editor (Notepad-style)
+- 👀 Live preview while typing
+- 🌑 Dark theme (editor + preview)
 - 📄 Supports tables, fenced code blocks, blockquotes, and more
 - 🌐 Chromium-based embedded preview (`tkinterweb`)
-- 💾 Open, Save, Save As support
+- 💾 Open, Save, Save As
 - 🧠 Undo / Redo
-- 🚀 Launch files via *“Open with”* from File Explorer
+- 🚀 Supports *“Open with”* from File Explorer
 
 ---
 
-## 📸 Preview
+## 📦 Precompiled Executables (Windows)
 
-> Left: Markdown editor  
-> Right: Live rendered preview
+For users who **do not want to install Python**, MDpad is available as a **precompiled Windows executable**.
 
-*(Screenshot coming soon)*
+- Executables are located in the **`dist/` folder**
+- Built as **GUI applications** (no terminal / console window)
+- Ready to run — just double-click
+
+### How to use
+1. Go to the `dist/` directory
+2. Run `MDpad.exe`
+3. Start editing Markdown files immediately
+
+> These executables were generated using tools like **PyInstaller** with GUI mode enabled.
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ Requirements (Source Version Only)
+
+If you prefer running from source:
 
 - **Python 3.10+**
 - pip packages:
   - `markdown`
   - `tkinterweb`
 
-> Tkinter comes pre-installed with most Python distributions.
+> Tkinter is included with standard Python installations.
 
 ---
 
-## 📦 Installation
+## 📦 Installation (From Source)
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/mdpad.git
 cd mdpad
+```
 
 Install dependencies:
 
