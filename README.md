@@ -153,5 +153,3 @@ Built with ❤️ by **Sunil Saragadam**
 
 If you like this project, consider starring ⭐ it on GitHub!
 
-```
-
