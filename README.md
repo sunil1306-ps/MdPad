@@ -1,4 +1,3 @@
-````markdown
 # MDpad 📝  
 *A Notepad-like desktop editor for Markdown with live preview*
 
@@ -49,7 +48,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/mdpad.git
 cd mdpad
-````
 
 Install dependencies:
 
